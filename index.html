@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio Home</title>
+  <meta name="description" content="A responsive portfolio capstone showcasing web design skills.">
+  <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="site-header">
+  <div class="container">
+    <nav class="navbar" aria-label="Primary">
+      <a class="brand" href="index.html" aria-current="page">
+        <span class="brand-badge" aria-hidden="true"></span>
+        <span>My Portfolio</span>
+      </a>
+
+      <div class="nav-actions">
+        <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="nav-links">
+          Menu
+        </button>
+        <button class="button" type="button" data-theme-toggle aria-label="Toggle theme (current: auto)">
+          Theme
+        </button>
+      </div>
+    </nav>
+
+    <ul class="nav-links" id="nav-links" data-nav-links data-open="false">
+      <li><a href="index.html" aria-current="page">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<main id="main" class="container">
+
+<section class="hero fade-in" aria-label="Intro">
+  <div class="hero-media" role="img" aria-label="A person working on a laptop at a desk"></div>
+  <div class="hero-body">
+    <p class="kicker">Portfolio • HTML • CSS • Responsive Design</p>
+    <h1>Hi, I’m My — I build clean, accessible websites that work on every screen.</h1>
+    <p>
+      This site shows what I learned in web design: layouts, responsiveness, and a few interactive touches.
+    </p>
+    <div class="hero-cta">
+      <a class="button primary" href="projects.html">See my course projects</a>
+      <a class="button" href="contact.html">Contact</a>
+    </div>
+  </div>
+</section>
+
+<section class="section fade-in" aria-label="About">
+  <h2>About this site</h2>
+  <div class="grid cols-2">
+    <div class="card">
+      <img src="img/home_office.jpg" alt="A minimalist home office with a laptop on a desk near a window.">
+      <div class="card-body">
+        <h3>About me</h3>
+        <p>
+          I’m a student who enjoys building simple pages that look good on both phones and laptops.
+        </p>
+        <p class="meta">
+          Focus: responsive layout, clean structure, and easy navigation.
+        </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="img/workspace.jpg" alt="A modern organized desk setup with an open laptop and small items.">
+      <div class="card-body">
+        <h3>What you’ll find</h3>
+        <p>
+          A project gallery with my course work, and wireframes showing mobile vs. desktop layout.
+        </p>
+        <ul>
+          <li>Page structure and navigation</li>
+          <li>Mobile-first CSS + media queries</li>
+          <li>Accessibility basics (skip link + focus)</li>
+          <li>Extras: theme toggle + project search</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section fade-in" aria-label="Featured projects">
+  <h2>Featured projects</h2>
+  <p class="helper">These are the projects you shared from this course. Full list is on the Projects page.</p>
+  <div class="grid cols-2">
+    <article class="card">
+      <div class="card-body">
+        <h3>My Laptop’s Honest Review of Me</h3>
+        <p>A fun narrative page with structure, links, and personal voice.</p>
+        <a class="button primary" href="https://shaaminig.github.io/My-Laptop-s-Honest-Review-of-Me/" target="_blank" rel="noopener">Open project</a>
+      </div>
+    </article>
+    <article class="card">
+      <div class="card-body">
+        <h3>JS Gallery Homework</h3>
+        <p>A gallery that demonstrates interactivity and DOM basics.</p>
+        <a class="button primary" href="https://shaaminig.github.io/JS--Gallery-Homework/" target="_blank" rel="noopener">Open project</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© <span data-year></span> My Portfolio</p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

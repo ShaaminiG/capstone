@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects</title>
+  <meta name="description" content="A gallery of course projects with links and descriptions.">
+  <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="site-header">
+  <div class="container">
+    <nav class="navbar" aria-label="Primary">
+      <a class="brand" href="index.html">
+        <span class="brand-badge" aria-hidden="true"></span>
+        <span>My Portfolio</span>
+      </a>
+
+      <div class="nav-actions">
+        <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="nav-links">
+          Menu
+        </button>
+        <button class="button" type="button" data-theme-toggle aria-label="Toggle theme (current: auto)">
+          Theme
+        </button>
+      </div>
+    </nav>
+
+    <ul class="nav-links" id="nav-links" data-nav-links data-open="false">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html" aria-current="page">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<main id="main" class="container">
+
+<section class="section fade-in">
+  <h1 style="margin:0 0 10px;">Projects</h1>
+  <p class="helper">
+    Use the search box to filter projects.
+  </p>
+
+  <label for="projectSearch">Search projects</label>
+  <input id="projectSearch" type="search" placeholder="Try: javascript, gallery, layout…" data-project-search>
+
+  <div class="grid cols-2" style="margin-top: 12px;">
+    
+    <article class="card" data-project-card data-keywords="html semantics writing My Laptop’s Honest Review of Me Storytelling + semantic layout + links.">
+      <img src="img/home_office.jpg" alt="Thumbnail image for My Laptop’s Honest Review of Me.">
+      <div class="card-body">
+        <h3>My Laptop’s Honest Review of Me</h3>
+        <p>Storytelling + semantic layout + links.</p>
+        <a class="button primary" href="https://shaaminig.github.io/My-Laptop-s-Honest-Review-of-Me/" target="_blank" rel="noopener">Open on GitHub Pages</a>
+      </div>
+    </article>
+    
+    <article class="card" data-project-card data-keywords="images layout grid Springtime in MI A multi-section page with images and layout practice.">
+      <img src="img/gradient_pink_blue.jpg" alt="Thumbnail image for Springtime in MI.">
+      <div class="card-body">
+        <h3>Springtime in MI</h3>
+        <p>A multi-section page with images and layout practice.</p>
+        <a class="button primary" href="https://shaaminig.github.io/Springtime-in-MI/" target="_blank" rel="noopener">Open on GitHub Pages</a>
+      </div>
+    </article>
+    
+    <article class="card" data-project-card data-keywords="javascript dom gallery JS Gallery Homework Interactive gallery with JavaScript behaviors.">
+      <img src="img/workspace.jpg" alt="Thumbnail image for JS Gallery Homework.">
+      <div class="card-body">
+        <h3>JS Gallery Homework</h3>
+        <p>Interactive gallery with JavaScript behaviors.</p>
+        <a class="button primary" href="https://shaaminig.github.io/JS--Gallery-Homework/" target="_blank" rel="noopener">Open on GitHub Pages</a>
+      </div>
+    </article>
+    
+    <article class="card" data-project-card data-keywords="accessibility content polish Laptop’s review: tips A refined variation with usability / tips content.">
+      <img src="img/gradient_teal_purple.jpg" alt="Thumbnail image for Laptop’s review: tips.">
+      <div class="card-body">
+        <h3>Laptop’s review: tips</h3>
+        <p>A refined variation with usability / tips content.</p>
+        <a class="button primary" href="https://shaaminig.github.io/Laptop-s-review-of-me-tips/" target="_blank" rel="noopener">Open on GitHub Pages</a>
+      </div>
+    </article>
+    
+  </div>
+
+  <p class="helper" style="margin-top:12px;">
+    These links open in a new tab.
+  </p>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© <span data-year></span> My Portfolio</p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
